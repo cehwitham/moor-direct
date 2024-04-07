@@ -1,6 +1,6 @@
 ---
 title: Blog
-description: 'All blog posts can be found here'
+description: 'Latest updates'
 layout: blog
 pagination:
   data: collections.posts

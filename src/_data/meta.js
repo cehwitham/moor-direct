@@ -1,34 +1,34 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'Eleventy Excellent',
+  siteName: 'MoorDirect',
   siteDescription:
-    'Eleventy starter built around the CSS workflow suggested by buildexcellentwebsit.es',
+    'Website to document mooring locations for Scripture Union Sailing Holidays',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
   skipContent: 'Skip to content',
   author: {
-    name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
+    name: 'Chris Witham', // i.e. Lene Saile - page / blog author's name. Must be set.
     avatar: '/favicon.png',
-    email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-    website: 'https://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+    email: 'hello@cehwitham.com', // i.e. hola@lenesaile.com - email of the author
+    website: 'https://www.cehwitham.com' // i.e. https.://www.lenesaile.com - the personal site of the author
   },
   creator: {
-    name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
-    email: 'hola@lenesaile.com',
-    website: 'https://www.lenesaile.com',
-    social: 'https://front-end.social/@lene'
+    name: 'Chris', // i.e. Lene Saile - creator's (developer) name.
+    email: 'hello@cehwitham.com',
+    website: 'https://www.cehwitham.com',
+    social: ''
   },
-  themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
-  themeBgColor: '#FBFBFB', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
+  themeColor: '#3498db', //  Manifest: defines the default theme color for the application
+  themeBgColor: '#2980b9', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   opengraph_default: '/assets/images/template/opengraph-default.jpg', // fallback/default meta image
   opengraph_default_alt:
-    'Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
+    '', // alt text for default meta image
   blog: {
     // RSS feed
-    name: 'My Web Development Blog',
+    name: 'Moor Direct',
     description:
-      'Tell the word what you are writing about in your blog. It will show up on feed readers.',
+      'Helping Scripture Union sailing holidays find a mooring.',
     // feed links are looped over in the head. You may add more to the array.
     feedLinks: [
       {

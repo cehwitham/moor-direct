@@ -1,3 +1,9 @@
+const alphaSortTitle = (a, b) => {
+  if (a.data.title < b.data.title) return -1;
+  if (b.data.title > a.data.title) return 1;
+  return 0;
+};
+
 /** All blog posts as a collection. */
 const getAllPosts = collection => {
   const posts = collection.getFilteredByGlob('./src/posts/**/*.md');
@@ -21,8 +27,15 @@ const tagList = collection => {
   return Array.from(tagsSet).sort();
 };
 
+/** All moorings */
+
+const getAllMoorings = collection => {
+  return collection.getFilteredByGlob('./src/moorings/*.md');
+}
+
 module.exports = {
   getAllPosts,
   onlyMarkdown,
-  tagList
+  tagList,
+  getAllMoorings,
 };

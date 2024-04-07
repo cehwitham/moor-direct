@@ -1,8 +1,8 @@
 {
-  "name": "eleventy-excellent",
-  "version": "2.2.2",
-  "description": "Eleventy starter built around the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
-  "author": "Lene Saile",
+  "name": "moor-direct",
+  "version": "0.0.1",
+  "description": "Helping Scripture Union sailing holidays find a mooring.",
+  "author": "Chris Witham",
   "license": "ISC",
   "engines": {
     "node": ">=18.x.x"
@@ -27,6 +27,7 @@
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "sharp": "^0.33.2",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {

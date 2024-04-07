@@ -1,0 +1,13 @@
+
+<dl class="grid region" role="list" data-rows="masonry" data-layout="50-50">
+    <dt><strong>Lat/Long:</strong></dt><dd><a href="geo:{{ lat_long }}">{{ lat_long }}</a></dd>
+    <dt><strong>Grid reference:</strong></dt><dd>{{ grid_reference }}</dd>
+    <dt><strong>Address:</strong></dt><dd>{{ address }}</dd>
+    <dt><strong>Travel time from Hautbois Centre:</strong></dt><dd>{{ travel_time }}</dd>
+    <dt><strong>Parking:</strong></dt><dd>{{ parking }}</dd>
+    <dt><strong>Toilets:</strong></dt><dd>{{ toilets }}</dd>
+    <dt><strong>Mooring fee:</strong></dt><dd>{{ mooring_fee }}</dd>
+    {% if telephone %}
+    <dt><strong>Telephone:</strong></dt><dd><a href="tel:{{ telephone }}">{{ telephone }}</a></dd>
+    {% endif %}
+</dl>

@@ -1,0 +1,26 @@
+---
+layout: base
+---
+
+<article
+  class="region wrapper flow prose"
+  style="--region-space-top: var(--space-xl)"
+>
+
+{% block content %}
+    <div class="">
+        <h1>{{title}}</h1>
+
+        {% include "partials/moorings-details.njk" %}
+
+        {{ content | safe }}
+
+    </div>
+{% endblock %}
+
+{% ifAsync gallery %}
+    <h2>Images</h2>
+{% include "components/gallery.njk" %}
+{% endif %}    
+
+</article>

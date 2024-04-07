@@ -5,12 +5,8 @@ module.exports = {
       url: '/about/'
     },
     {
-      text: 'Get started',
-      url: '/get-started/'
-    },
-    {
-      text: 'Built with',
-      url: '/built-with/'
+      text: 'All moorings',
+      url: '/moorings/'
     },
     {
       text: 'Blog',
@@ -25,10 +21,6 @@ module.exports = {
     {
       text: 'Imprint',
       url: '/imprint/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
     }
   ]
 };
