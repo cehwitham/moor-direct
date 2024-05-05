@@ -9,7 +9,7 @@ address: Horsefen Road, Ludham, NR29 5QG
 travel_time:  17 minutes /  9.3 miles
 parking: "Yes"
 toilets: "Yes"
-mooring_fee: TBC
+mooring_fee: Free if hiring boats
 telephone: 01692 678263
 gallery:
   - image: ./src/assets/images/gallery/huntersyard/m10006.jpg
