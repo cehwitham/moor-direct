@@ -13,8 +13,8 @@ module.exports = {
       url: '/blog/'
     },
     {
-      text: 'Style guide',
-      url: '/styleguide/'
+      text: 'Reference',
+      url: '/quick-references/'
     }
   ],
   bottom: [
